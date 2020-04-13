@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    // tslint:disable-next-line: quotemark
+    apiKey: "AIzaSyDZw9iEfJOzhk_hANZs33zisW-sPVmVvEU",
+    authDomain: 'shvp-backend.firebaseapp.com',
+    databaseURL: 'https://shvp-backend.firebaseio.com',
+    projectId: 'shvp-backend',
+    storageBucket: 'shvp-backend.appspot.com',
+    messagingSenderId: '749754677106',
+    appId: '1:749754677106:web:b0d99b8df4be0bea474feb'
+  }
 };
 
 /*

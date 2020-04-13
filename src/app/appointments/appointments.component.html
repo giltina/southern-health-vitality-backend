@@ -1,0 +1,20 @@
+<div class="container">
+    <h3>Appointments</h3>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Date</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let appointment of appointments">
+            <td>{{appointment.title}}</td>
+            <td>{{appointment.date}}</td>
+            <td>{{appointment.time}}</td>
+          </tr>
+         
+        </tbody>
+      </table>
+</div>
